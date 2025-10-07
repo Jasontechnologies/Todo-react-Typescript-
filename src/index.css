@@ -1,0 +1,236 @@
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --muted: #666;
+  --accent: #2563eb;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  min-height: 100vh;
+}
+
+/* App container */
+.app {
+  width: 100%;
+  max-width: 520px;
+  background: var(--card);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(12, 12, 20, 0.06);
+}
+
+/* Heading */
+h1 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.todo-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.todo-form button {
+  padding: 10px 14px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Empty message */
+.empty {
+  color: var(--muted);
+  margin: 16px 0;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8px;
+  border-bottom: 1px solid #f1f1f8;
+}
+.todo-label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.todo-text {
+  font-size: 1rem;
+}
+
+/* Completed style */
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #999;
+  padding: 4px 8px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  color: var(--muted);
+}
+.footer-actions button {
+  background: transparent;
+  border: 1px solid #eee;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --muted: #666;
+  --accent: #2563eb;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: var(--bg);
+  color: #111;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 16px;
+  min-height: 100vh;
+}
+
+/* App container */
+.app {
+  width: 100%;
+  max-width: 520px;
+  background: var(--card);
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(12, 12, 20, 0.06);
+}
+
+/* Heading */
+h1 {
+  margin: 0 0 12px;
+  font-size: 1.4rem;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.todo-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #e6e6f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.todo-form button {
+  padding: 10px 14px;
+  border: none;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Empty message */
+.empty {
+  color: var(--muted);
+  margin: 16px 0;
+}
+
+/* Todo list */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 8px;
+  border-bottom: 1px solid #f1f1f8;
+}
+.todo-label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.todo-text {
+  font-size: 1rem;
+}
+
+/* Completed style */
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Delete button */
+.delete-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #999;
+  padding: 4px 8px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  color: var(--muted);
+}
+.footer-actions button {
+  background: transparent;
+  border: 1px solid #eee;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
